@@ -1,0 +1,41 @@
+{
+  "image": "D:\\Study\\MODEL\\CSE428\\cse428_Project\\demo_images\\brisc2025_test_00081_gl_ax_t1.jpg",
+  "mri_view": {
+    "type": "Axial",
+    "confidence": 0.7142857142857143
+  },
+  "best_model": {
+    "name": "Joint Model",
+    "key": "joint"
+  },
+  "results": {
+    "joint": {
+      "model_name": "Joint Model",
+      "prediction": "glioma",
+      "confidence": 0.9999834299087524,
+      "tumor_percentage": 0.007553412113338709,
+      "is_best": true
+    },
+    "attention": {
+      "model_name": "Attention U-Net",
+      "prediction": "Segmentation Only",
+      "confidence": 1.0,
+      "tumor_percentage": 0.007154814898967743,
+      "is_best": false
+    },
+    "unet": {
+      "model_name": "Base U-Net",
+      "prediction": "Segmentation Only",
+      "confidence": 1.0,
+      "tumor_percentage": 0.0078125,
+      "is_best": false
+    },
+    "classifier": {
+      "model_name": "Classifier",
+      "prediction": "glioma",
+      "confidence": 0.9999006986618042,
+      "tumor_percentage": 0.0,
+      "is_best": false
+    }
+  }
+}

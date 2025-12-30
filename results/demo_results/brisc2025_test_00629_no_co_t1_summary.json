@@ -1,0 +1,41 @@
+{
+  "image": "D:\\Study\\MODEL\\CSE428\\cse428_Project\\demo_images\\brisc2025_test_00629_no_co_t1.jpg",
+  "mri_view": {
+    "type": "Coronal",
+    "confidence": 0.6666666666666666
+  },
+  "best_model": {
+    "name": "Classifier",
+    "key": "classifier"
+  },
+  "results": {
+    "joint": {
+      "model_name": "Joint Model",
+      "prediction": "glioma",
+      "confidence": 0.98391193151474,
+      "tumor_percentage": 0.0,
+      "is_best": false
+    },
+    "attention": {
+      "model_name": "Attention U-Net",
+      "prediction": "Segmentation Only",
+      "confidence": 1.0,
+      "tumor_percentage": 0.008669483475387096,
+      "is_best": false
+    },
+    "unet": {
+      "model_name": "Base U-Net",
+      "prediction": "Segmentation Only",
+      "confidence": 1.0,
+      "tumor_percentage": 0.010483099147677422,
+      "is_best": false
+    },
+    "classifier": {
+      "model_name": "Classifier",
+      "prediction": "no_tumor",
+      "confidence": 0.9999351501464844,
+      "tumor_percentage": 0.0,
+      "is_best": true
+    }
+  }
+}

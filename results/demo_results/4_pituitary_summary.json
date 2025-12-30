@@ -1,0 +1,41 @@
+{
+  "image": "D:\\Study\\MODEL\\CSE428\\cse428_Project\\demo_images\\4_pituitary.jpg",
+  "mri_view": {
+    "type": "Axial",
+    "confidence": 0.7142857142857143
+  },
+  "best_model": {
+    "name": "Joint Model",
+    "key": "joint"
+  },
+  "results": {
+    "joint": {
+      "model_name": "Joint Model",
+      "prediction": "pituitary",
+      "confidence": 0.9997269511222839,
+      "tumor_percentage": 0.0013950893189758062,
+      "is_best": true
+    },
+    "attention": {
+      "model_name": "Attention U-Net",
+      "prediction": "Segmentation Only",
+      "confidence": 1.0,
+      "tumor_percentage": 0.001474808668717742,
+      "is_best": false
+    },
+    "unet": {
+      "model_name": "Base U-Net",
+      "prediction": "Segmentation Only",
+      "confidence": 1.0,
+      "tumor_percentage": 0.001454878831282258,
+      "is_best": false
+    },
+    "classifier": {
+      "model_name": "Classifier",
+      "prediction": "pituitary",
+      "confidence": 0.9991649389266968,
+      "tumor_percentage": 0.0,
+      "is_best": false
+    }
+  }
+}

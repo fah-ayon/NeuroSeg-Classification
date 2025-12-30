@@ -1,0 +1,41 @@
+{
+  "image": "D:\\Study\\MODEL\\CSE428\\cse428_Project\\demo_images\\brisc2025_test_00453_me_co_t1.jpg",
+  "mri_view": {
+    "type": "Axial",
+    "confidence": 0.5
+  },
+  "best_model": {
+    "name": "Classifier",
+    "key": "classifier"
+  },
+  "results": {
+    "joint": {
+      "model_name": "Joint Model",
+      "prediction": "meningioma",
+      "confidence": 0.999193012714386,
+      "tumor_percentage": 0.015306122601032257,
+      "is_best": false
+    },
+    "attention": {
+      "model_name": "Attention U-Net",
+      "prediction": "Segmentation Only",
+      "confidence": 1.0,
+      "tumor_percentage": 0.015465561300516129,
+      "is_best": false
+    },
+    "unet": {
+      "model_name": "Base U-Net",
+      "prediction": "Segmentation Only",
+      "confidence": 1.0,
+      "tumor_percentage": 0.01564493030309677,
+      "is_best": false
+    },
+    "classifier": {
+      "model_name": "Classifier",
+      "prediction": "meningioma",
+      "confidence": 0.9997559189796448,
+      "tumor_percentage": 0.0,
+      "is_best": true
+    }
+  }
+}

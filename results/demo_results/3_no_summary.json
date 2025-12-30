@@ -1,0 +1,41 @@
+{
+  "image": "D:\\Study\\MODEL\\CSE428\\cse428_Project\\demo_images\\3_no.jpg",
+  "mri_view": {
+    "type": "Coronal",
+    "confidence": 0.6
+  },
+  "best_model": {
+    "name": "Joint Model",
+    "key": "joint"
+  },
+  "results": {
+    "joint": {
+      "model_name": "Joint Model",
+      "prediction": "meningioma",
+      "confidence": 0.9894885420799255,
+      "tumor_percentage": 0.012974330224096775,
+      "is_best": true
+    },
+    "attention": {
+      "model_name": "Attention U-Net",
+      "prediction": "Segmentation Only",
+      "confidence": 1.0,
+      "tumor_percentage": 0.01345264632254839,
+      "is_best": false
+    },
+    "unet": {
+      "model_name": "Base U-Net",
+      "prediction": "Segmentation Only",
+      "confidence": 1.0,
+      "tumor_percentage": 0.015365911647677422,
+      "is_best": false
+    },
+    "classifier": {
+      "model_name": "Classifier",
+      "prediction": "no_tumor",
+      "confidence": 0.6573482155799866,
+      "tumor_percentage": 0.0,
+      "is_best": false
+    }
+  }
+}

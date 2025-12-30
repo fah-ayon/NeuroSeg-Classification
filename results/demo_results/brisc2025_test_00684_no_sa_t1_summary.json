@@ -1,0 +1,41 @@
+{
+  "image": "D:\\Study\\MODEL\\CSE428\\cse428_Project\\demo_images\\brisc2025_test_00684_no_sa_t1.jpg",
+  "mri_view": {
+    "type": "Sagittal",
+    "confidence": 0.6666666666666666
+  },
+  "best_model": {
+    "name": "Classifier",
+    "key": "classifier"
+  },
+  "results": {
+    "joint": {
+      "model_name": "Joint Model",
+      "prediction": "pituitary",
+      "confidence": 0.8948619961738586,
+      "tumor_percentage": 0.0,
+      "is_best": false
+    },
+    "attention": {
+      "model_name": "Attention U-Net",
+      "prediction": "Segmentation Only",
+      "confidence": 1.0,
+      "tumor_percentage": 0.011280293576419353,
+      "is_best": false
+    },
+    "unet": {
+      "model_name": "Base U-Net",
+      "prediction": "Segmentation Only",
+      "confidence": 1.0,
+      "tumor_percentage": 0.00021922831365372986,
+      "is_best": false
+    },
+    "classifier": {
+      "model_name": "Classifier",
+      "prediction": "no_tumor",
+      "confidence": 0.9999953508377075,
+      "tumor_percentage": 0.0,
+      "is_best": true
+    }
+  }
+}

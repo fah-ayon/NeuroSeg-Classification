@@ -1,0 +1,87 @@
+{
+  "config": {
+    "target_size": 224,
+    "normalize": true,
+    "apply_clahe": true,
+    "clahe_clip_limit": 4.0,
+    "clahe_tile_size": [
+      8,
+      8
+    ],
+    "denoise": true,
+    "adaptive_threshold_masks": false
+  },
+  "classification": {
+    "total": 6000,
+    "processed": 6000,
+    "failed": 0,
+    "per_class": {
+      "glioma": 1401,
+      "meningioma": 1635,
+      "no_tumor": 1207,
+      "pituitary": 1757
+    },
+    "splits": {
+      "train": 5000,
+      "test": 1000
+    }
+  },
+  "segmentation": {
+    "total": 4793,
+    "processed": 4793,
+    "failed": 0,
+    "missing_mask": 0,
+    "fg_pixels": 4073248,
+    "total_pixels": 240493568,
+    "splits": {
+      "train": 3933,
+      "test": 860
+    },
+    "foreground_ratio": 0.0169370350894374,
+    "pos_weight_suggestion": 58.04221103158953
+  },
+  "validation": {
+    "status": "success",
+    "checks": [
+      [
+        "class_mapping",
+        "pass",
+        {
+          "glioma": 0,
+          "meningioma": 1,
+          "no_tumor": 2,
+          "pituitary": 3
+        }
+      ],
+      [
+        "sample_image",
+        "pass",
+        {
+          "shape": [
+            224,
+            224
+          ],
+          "min": 0.0117647061124444,
+          "max": 0.9960784316062927
+        }
+      ],
+      [
+        "segmentation",
+        "pass",
+        {
+          "num_images": 3933,
+          "num_masks": 3933,
+          "image_shape": [
+            224,
+            224
+          ],
+          "mask_unique_values": [
+            0.0,
+            1.0
+          ],
+          "mask_foreground_ratio": 0.062420278787612915
+        }
+      ]
+    ]
+  }
+}
