@@ -331,10 +331,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) 
 
 ## Contact
 
-For questions, suggestions, or collaborations:
-- **LinkedIn:** [Abdullah Al Fahad](https://www.linkedin.com/in/abdullahalfahadayon/)
-- **Email:** abdullah.al.fahad2@g.bracu.ac.bd
-- **Institution:** BRAC University, Dhaka, Bangladesh
+**Abdullah Al Fahad**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/abdullahalfahadayon/)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail)](mailto:abdullah.al.fahad2@g.bracu.ac.bd)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/fah-ayon)
+
+---
 
 ---
 
